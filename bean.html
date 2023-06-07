@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR BEAN</title>
+    <style>
+        .body{
+            background-image: url(bean.jpg);
+        }
+               .eyes{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50);
+            width: 100%;
+        }
+        .eye{
+            width: 100px;
+            height: 105px;
+            background-color: #fff;
+            display: inline-block;
+            margin: 29px;
+            border: 5px solid #000;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+        .ball{
+            width: 20px;
+            height: 20px;
+            background: black;
+            position: absolute;
+            top: 70%;
+            left: 70%;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;
+        }
+        img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="mrbean (1) (2).jpg" height="700px" style="position: absolute; left:100px; top:120px"  >
+        <div class="eyes">
+            <div class="eye">
+                <div class="ball"></div>
+            </div>
+            <div class="eye">
+                <div class="ball"></div>
+            </div>
+        </center>
+        <script src="bean.js"></script>
+</body>
+</html>
